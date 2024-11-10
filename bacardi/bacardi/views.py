@@ -10,6 +10,9 @@ def step2(request):
 def step2(request):
     return render(request, 'core/step2.html')
 
+def paso1(request):
+    return render(request, 'core/paso1')
+
 def seleccion_pais(request):
     paises_america = Pais.objects.filter(continente_id=2)
     print(paises_america)  # Para depuración

@@ -1,0 +1,63 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promoción Lollapalooza</title>
+    <style>
+        /* Estilos para centrar y dar formato a la página */
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .container {
+            width: 90%;
+            max-width: 400px;
+            text-align: center;
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .promo-image {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .promo-text {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .button-promo {
+            padding: 12px;
+            font-size: 16px;
+            background-color: #4CAF50;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            text-decoration: none;
+            display: inline-block;
+            text-align: center;
+        }
+        .button-promo:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+                <p class="promo-text">Gánate un viaje a Lollapalooza Chile</p>
+        <p class="promo-text">Compra, regístrate y participa para ganar un viaje con todo pagado.</p>
+        <!-- Botón que lleva al formulario -->
+        <a href="formulario.html" class="button-promo">Haz clic aquí para activar la promo</a>
+    </div>
+</body>
+</html>
